@@ -63,7 +63,7 @@ $(function() {
                     return layer.msg("登录失败！")
                 }
                 layer.msg("登陆成功");
-                // console.log(res.token);
+                console.log(res.token);
                 // 将登陆成功得到的token字符串值保存到localStorage中
                 localStorage.setItem('token', res.token);
                 // 跳转后台主页
